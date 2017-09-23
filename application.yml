@@ -1,3 +1,7 @@
-prop1:application-1
-prop2:application-2
-prop2:application-2
+application:
+  property1:
+    value-1
+  property2:
+    value-2
+  property3:
+    value-2
