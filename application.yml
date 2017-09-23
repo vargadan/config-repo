@@ -1,7 +1,7 @@
-application:
-  property1:
-    value-1
-  property2:
-    value-2
-  property3:
-    value-2
+spring:
+  rabbitmq:
+      addresses: rabbitmq
+security:
+   oauth2:
+      resource:
+         userInfoUri: http://identity-service:8080/user
